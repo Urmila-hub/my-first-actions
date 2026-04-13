@@ -7,5 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Wait step
+        run: sleep 10
       - name: Print message
         run: echo "CI Running Successfully"
