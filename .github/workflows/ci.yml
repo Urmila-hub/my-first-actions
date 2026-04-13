@@ -15,3 +15,15 @@ jobs:
        echo "GitHub Actions"
     - name: List files
       run: ls
+    - name: Show OS
+      run: uname -a
+    - name: Step 1
+      run: echo "Step 1"
+    - name: Step 2
+      run: echo "Step 2"
+    - name: Step 3
+      run: 
+       echo "URMILA BHAURAO"
+       echo date
+      
+      
