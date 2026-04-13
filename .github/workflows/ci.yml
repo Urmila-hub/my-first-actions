@@ -13,5 +13,5 @@ jobs:
       run: |
        echo "Hello"
        echo "GitHub Actions"
-       - name: List files
-         run: ls
+    - name: List files
+      run: ls
