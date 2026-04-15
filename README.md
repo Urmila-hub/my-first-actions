@@ -53,13 +53,18 @@ my-first-actions/
 
 ## ▶️ How It Works
 ### Sample Function
+## ▶️ How It Works
+
+### Sample Function
 ```python
 def add(a, b):
-    return a + b ```
+    return a + b
+```        
 
 ---
 
-Sample Tests
+
+### Sample Tests
 def test_add_case1():
     assert add(2, 3) == 5
 
