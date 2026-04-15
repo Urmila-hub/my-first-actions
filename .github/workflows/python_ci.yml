@@ -1,4 +1,4 @@
-name: Python CI
+name: Python Project CI
 
 on: push
 
@@ -17,7 +17,6 @@ jobs:
 
       - name: Install pytest
         run: pip install pytest
-        
+
       - name: Run tests
-       run: PYTHONPATH=. pytest
-       
+        run: PYTHONPATH=. pytest
