@@ -59,7 +59,7 @@ def add(a, b):
 ```        
 
 ### Sample Tests
-```
+```python
 def test_add_case1():
     assert add(2, 3) == 5
 
