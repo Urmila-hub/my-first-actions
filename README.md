@@ -23,21 +23,23 @@ The pipeline automatically runs tests whenever code is pushed to the repository,
 
 ---
 
+
 ## 📁 Project Structure
+```
 my-first-actions/
 │
 ├── src/
-│ └── addition.py
+│   └── addition.py
 │
 ├── tests/
-│ └── test_addition.py
+│   └── test_addition.py
 │
 ├── .github/
-│ └── workflows/
-│ └── python_ci.yml
+│   └── workflows/
+│       └── python_ci.yml
 │
 └── README.md
-
+```
 ---
 
 ## 🔄 Workflow Explanation
