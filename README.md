@@ -53,16 +53,11 @@ my-first-actions/
 
 ## ▶️ How It Works
 ### Sample Function
-## ▶️ How It Works
-
-### Sample Function
 ```python
 def add(a, b):
     return a + b
 ```        
-
 ---
-
 
 ### Sample Tests
 def test_add_case1():
@@ -71,8 +66,23 @@ def test_add_case1():
 def test_add_case2():
     assert add(3, 3) == 6
 
-📊 Output (CI Result)
+## 📊 Output (CI Result)
 collected 2 items  
 2 passed  
 
 ✔ All tests pass successfully in the CI pipeline.
+
+## 🧠 Key Learnings
+Writing GitHub Actions workflows using YAML
+Understanding CI/CD concepts
+Debugging YAML syntax errors
+Fixing Python import issues using PYTHONPATH
+Structuring Python projects for testing
+
+## 🚀 Future Improvements
+Run tests on multiple Python versions
+Add requirements.txt for dependencies
+Add deployment step
+
+## 👩‍💻 Author
+URMILA BHAURAO
