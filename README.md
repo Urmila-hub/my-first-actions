@@ -26,7 +26,7 @@ The pipeline automatically runs tests whenever code is pushed to the repository,
 
 ## 📁 Project Structure
 ```
-my-first-actions/
+python-ci-cd-pipeline/
 │
 ├── src/
 │   └── addition.py
